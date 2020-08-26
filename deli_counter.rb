@@ -13,6 +13,6 @@ def line(array)
       line_positions << "#{number}. #{name}"
       number += 1
     end
-    puts "The line is currently: #{line_position.join(" ")"
+    puts "The line is currently: #{line_position.join}"
   end
   
