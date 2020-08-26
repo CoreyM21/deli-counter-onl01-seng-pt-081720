@@ -6,7 +6,7 @@
 katz_deli = []
 
 def line(array)
-    line_position = []
+    line_position = [];
     if katz_deli.empty?
       puts "The line is currently empty."
     else 
