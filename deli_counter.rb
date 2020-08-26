@@ -1,7 +1,7 @@
 #build #line method 
 #shows everyones current place in line 
 #if nobody in line, should say "The line is currently empty."
-
+katz_deli = []
 
 def line(array)
     line_position = []
