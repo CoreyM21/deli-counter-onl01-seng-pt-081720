@@ -7,11 +7,11 @@ katz_deli = []
 
 def line(array)
     line_position = [];
-    if katz_deli.empty?
+    if array.empty?
       puts "The line is currently empty."
     else 
       number = 1
-      katz_deli.each do |name|
+      array.each do |name|
       line_positions << "#{number}. #{name}"
       number += 1
     end
