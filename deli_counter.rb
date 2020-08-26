@@ -1,12 +1,7 @@
-# Write your code here.
+#build #line method 
+#shows everyones current place in line 
+#if nobody in line, should say "The line is currently empty."
 
 def line(array)
-  current_line = "The line is currently:"
-  array.each_with_index(1) do |number, name| 
-  current_line << " #{number}. #{name}"
-  end
-
-  end
-  "The line is currently empty."
- end
-end 
+  array.push
+  
