@@ -1,21 +1,18 @@
 #build #line method 
 #shows everyones current place in line 
 #if nobody in line, should say "The line is currently empty."
+katz_deli = []
 
 def line(array)
-    if array.length == 0 
+    line_position = []
+    if katz_deli.empty?
       puts "The line is currently empty."
-    else array.length > 1 
-      message = "The line is currently:"
-      array.each_with_index do |index, name|
-      message += " #{index.to_i+1}. #{name}"
+    else 
+      number = 1
+      katz_deli.each do |name|
+      line_positions << "#{number}. #{name}"
+      number += 1
     end
-  puts "#{message}"
+    puts "The line is currently: #{line_position.join(" ")"
   end
-end
-
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts "Welcome, #{name}. You are number #{index+1} in line."
-end
+  
