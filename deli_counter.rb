@@ -1,10 +1,3 @@
-#build #line method 
-#shows everyones current place in line 
-#if nobody in line, should say "The line is currently empty."
-
-
-katz_deli = []
-
 def line(katz_deli)
   line_positions = [];
   if katz_deli.empty?
